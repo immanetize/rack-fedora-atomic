@@ -1,7 +1,7 @@
 {
     "ref": "fedora-atomic/rawhide/x86_64/docker-host",
 
-    "repos": ["fedora-rawhide"],
+    "repos": ["fedora-rawhide", "misc-repo"],
 
     "selinux": true,
 
@@ -70,7 +70,8 @@
 		 "docker",
 		 "python-docker-py",
 		 "iscsi-initiator-utils",
-		 "oddjob-mkhomedir"],
+		 "oddjob-mkhomedir",
+     "nova-agent"],
 
     "default_target": "multi-user.target",
 

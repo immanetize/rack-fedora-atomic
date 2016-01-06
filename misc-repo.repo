@@ -1,0 +1,6 @@
+[misc-repo]
+name=misc repo $basearch
+baseurl=http://lemuria.randomuser.org/repo/misc_repo/
+enabled=1
+gpgcheck=0
+metadata_expire=1d
