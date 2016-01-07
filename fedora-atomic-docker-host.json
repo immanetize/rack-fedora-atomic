@@ -1,7 +1,7 @@
 {
     "ref": "fedora-atomic/rawhide/x86_64/docker-host",
 
-    "repos": ["fedora-rawhide", "misc-repo"],
+    "repos": ["fedora", "updates", "misc-repo"],
 
     "selinux": true,
 
